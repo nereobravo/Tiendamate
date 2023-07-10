@@ -4,33 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de css -->
    <link rel="stylesheet" href="../main.css">
+   <!-- link bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>contactos t</title>
 </head>
 <body>
     <header>
-        <div class="logotipo">
-            <a href="../index.html"><img src="../img/logotipo.jpeg" alt="imagen del logo"></a>
-        </div>
-        <nav>
-            <ul class="links">
-                <li>
-                    <a href="../index.html">inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html">productos</a> 
-                </li>
-                <li>
-                    <a href="../pages/nosotros.html">nosotros</a> 
-                </li>
-                <li>
-                    <a href="../pages/contactos.html">contacto</a> 
-                </li>
-                <li>
-                    <a href="../pages/preguntasfrecuentes.html">preguntas frecuentes</a> 
-                </li>
-            </ul>
-    
+        <nav class="navbar navbar-expand-sm navbar-light mb-4">
+            <div class="container-fluid">
+                <div class="logotipo me-auto">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../img/logotipo.jpeg" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="navbar-collapse justify-content-end order-2" id="opciones">
+                    <ul class="navbar-nav links dropdown-menu-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contactos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="contactos-todo">
@@ -66,12 +78,16 @@
         
     </main>
     <footer>
-        <div class="footer">
-            <div class="footer-logo"><img src="../img/logotipo.jpeg" alt="logotipo"></div>
-            <div class="footer-ubi"> <h3> encontranos en ... </h3></div>
-            <div class="footer-redes"><p> seguinos en </p></div> 
+        <div class="footer d-flex justify-content-between align-items-center ">
+             <div class="footer-logo ms-2"><img src="../img/logotipo.jpeg" alt="logotipo"></div>
+            <div class="footer-ubi"> Encontranos en </div>
+            <div class="footer-redes me-2"> Seguinos en </div> 
 
         </div>
     </footer>
+    <!-- link de javascrip -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js" integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>

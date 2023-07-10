@@ -11,72 +11,97 @@
 /* ------------- index ---------------- */ 
 
 body{
-   background-image: url(img/fondo-1.jpg); 
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+  
 }
 
 header{
-    padding: 10px;
+    
+    background-color: rgb(86, 122, 79);
 }
 header .logotipo {
     text-align: center;
 }
-header .logotipo img{
+header .logotipo .navbar-brand img{
     width: 90px;
 }
-header .links{
+header .navbar .navbar-collapse{
+    justify-content: center;
+}
+header .navbar .navbar-collapse .links{
     text-align: center;
     margin: 20px;
 }
-header .links li{
+header .navbar .navbar-collapse .links .nav-item{
     display: inline;
     
 }
-header .links li a{
+header .navbar .navbar-collapse .links .nav-item a{
     text-decoration: none;
     margin: 12px;
 }
+@media (max-width: 767px) {
+    header .navbar .navbar-collapse {
+      max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
+      overflow-y: auto;
+    }
+  }
 .mainIndex{
     text-align: center;
+    padding-top: 5em;
 }
-.mainIndex button{
+.mainIndex .btn{
     margin: 30px;
+    background-color: rgb(142, 205, 142);
 }
-.mainIndex .botontienda{
+.mainIndex .btn .botontienda{
     text-decoration: none;
+    color: white;
 }
-section{
-    text-align: center;
-    margin: 20px;
+
+.carousel-inner .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-section img{
-   width: 200px;
+.carousel .carousel-inner .carousel-image{
+    width: 20%;
+    height: auto;
+    margin: 0 auto; /* Centrar horizontalmente */
 }
-section .termoblanco1{
-    margin-left: 200px;
-    margin-right: 200px;
+.carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(75%) sepia(74%) saturate(1966%) hue-rotate(88deg) brightness(109%) contrast(91%);
 }
+@media (max-width: 767px) {
+    .carousel .carousel-inner .carousel-image{
+        width: 50%;
+        height: auto;
+        margin: 0 auto; /* Centrar horizontalmente */
+    }
+    .carousel-inner .carousel-item{
+        margin-bottom: 30px;
+    }
+  }
 footer{
-    margin-top: 70px;
+    background-color: rgb(86, 122, 79);
+    width: 100%;
+    margin-top: 15rem;
+   
 }
-footer .footer{
-    text-align: center;
-    justify-content: end;
-}
-
-footer .footer div{ 
-    display: inline-block;
-}
-
+@media (max-width: 767px) {
+    footer {
+    
+      margin-top: auto;
+    }
+  }
 footer .footer .footer-logo img{
     width: 50px;
 
 }
-footer .footer .footer-ubi{
-    margin-left: 600px;
-    margin-right: 600px;
-}
+
 
 /* ------------------------------------- css de productos ----------------------------- */
 
@@ -144,15 +169,18 @@ main .imagenesdenosotros .estantes{
 /* ---------------- css para contactos ------------- */ 
 .contactos-todo{
     text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 175px;
 }
 .contactos-todo .divmapa{
     display: inline-block;
-    margin-right: 300px;
+    
 }
 .contactos-todo .opcionesdecontacto{
     display: inline-block;
-    margin-left: 300px;
+ 
 }
 .opcionesdecontacto .acercate{
     margin-top: 30px;
@@ -188,7 +216,4 @@ main .imagenesdenosotros .estantes{
 .textoprincipal .contenedorpreguntas{
    padding-left: 600px;
    padding-right: 600px;   
-}
-.footer{
-    margin-top: 320px;
 }
