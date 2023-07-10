@@ -1,0 +1,194 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+/* ------------- index ---------------- */ 
+
+body{
+   background-image: url(img/fondo-1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 10px;
+}
+header .logotipo {
+    text-align: center;
+}
+header .logotipo img{
+    width: 90px;
+}
+header .links{
+    text-align: center;
+    margin: 20px;
+}
+header .links li{
+    display: inline;
+    
+}
+header .links li a{
+    text-decoration: none;
+    margin: 12px;
+}
+.mainIndex{
+    text-align: center;
+}
+.mainIndex button{
+    margin: 30px;
+}
+.mainIndex .botontienda{
+    text-decoration: none;
+}
+section{
+    text-align: center;
+    margin: 20px;
+}
+section img{
+   width: 200px;
+}
+section .termoblanco1{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer{
+    margin-top: 70px;
+}
+footer .footer{
+    text-align: center;
+    justify-content: end;
+}
+
+footer .footer div{ 
+    display: inline-block;
+}
+
+footer .footer .footer-logo img{
+    width: 50px;
+
+}
+footer .footer .footer-ubi{
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+/* ------------------------------------- css de productos ----------------------------- */
+
+.tituloDeProductos{
+    text-align: center;
+}
+
+.tituloDeProductos .ttls .ttl-termos{
+    display: inline-block;
+    margin-right: 350px;
+    background-color: beige;
+    font-size: 20px;
+}
+.tituloDeProductos .ttls .ttl-mates{
+    display: inline-block;
+    margin-left: 350px;
+    background-color: beige;
+    font-size: 20px;
+}
+.tituloDeProductos .img-termos{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.tituloDeProductos .img-termos img{
+    width: 350px;
+    display: block;
+}
+.img-termos .termo-negro{
+    margin-top: 200px;
+}
+.tituloDeProductos .img-mates{
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.tituloDeProductos .img-mates img{
+    display: block;
+    width: 350px;    
+}
+.img-mates .mate-verde{
+    margin-bottom: 200px;
+}
+
+/* ------------------- css para nosotros ----------------- */
+
+main .titulodenosotros{
+    text-align: center;
+}
+main .titulodenosotros .lorem{
+    margin-top: 50px;
+}
+main .imagenesdenosotros{
+    text-align: center;
+}
+main .imagenesdenosotros img{
+    width: 450px;
+    margin-top: 40px;
+}
+main .imagenesdenosotros .estantes{
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+/* ---------------- css para contactos ------------- */ 
+.contactos-todo{
+    text-align: center;
+    margin-bottom: 175px;
+}
+.contactos-todo .divmapa{
+    display: inline-block;
+    margin-right: 300px;
+}
+.contactos-todo .opcionesdecontacto{
+    display: inline-block;
+    margin-left: 300px;
+}
+.opcionesdecontacto .acercate{
+    margin-top: 30px;
+    background-color: beige;
+    margin-bottom: 15px;
+}
+.opcionesdecontacto .escribinos{
+    margin-top: 30px;
+    background-color: beige;
+    margin-bottom: 15px;
+}
+.opcionesdecontacto .llamanos{
+    background-color: beige;
+    margin-bottom: 15px;
+}
+.opcionesdecontacto .numero{
+    background-color: antiquewhite;
+}
+.opcionesdecontacto .direccion{
+    background-color: antiquewhite;
+}
+.opcionesdecontacto .mail{
+    background-color: antiquewhite;
+}
+/* --------------- css para preguntas frecuentes ------------ */
+
+.textoprincipal{
+   text-align: center;
+}
+.textoprincipal .tex{
+    margin-top: 30px;
+}
+.textoprincipal .contenedorpreguntas{
+   padding-left: 600px;
+   padding-right: 600px;   
+}
+.footer{
+    margin-top: 320px;
+}
