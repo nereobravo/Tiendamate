@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link de css -->
-    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <meta name="description" content="Las mejores bombillas de Rio Gallegos Santa Cruz">
+    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,13 +21,16 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <!-- Iconos del sitio -->
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
     <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <!-- Título de la página -->
     <title>Bombillas</title>
   </head>
   <body>
+    <!-- Encabezado / Barra de navegación -->
     <header>
       <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <div class="container-fluid">
@@ -40,12 +44,13 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#opciones"
+            aria-expanded="false"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div
-            class="navbar-collapse justify-content-end order-2"
+            class="collapse navbar-collapse justify-content-end order-2"
             id="opciones"
           >
             <ul class="navbar-nav links dropdown-menu-right">
@@ -71,10 +76,12 @@
         </div>
       </nav>
     </header>
+    <!-- Contenido principal / Sección de bombillas -->
     <main class="productos">
         <h1 class="tituloBombillas">Bombillas</h1>
       <div class="productosMates">
         <div class="tablaMates">
+          <!-- bombilla 1 -->
           <div class="card">
             <img
               src="../img/bombillaalpaca.png"
@@ -82,7 +89,7 @@
               alt="BOMBILLA PACA"
             />
             <div class="card-body">
-              <h5 class="card-title">BOMBILLA ALPACA ACERO INOXIDABLE </h5>
+              <h2 class="card-title">BOMBILLA ALPACA ACERO INOXIDABLE </h2>
               <p class="card-text">$14.500,00</p>
               <p class="card-subtext">
                 3 cuotas sin interés con tarjetas bancarias
@@ -90,10 +97,11 @@
               <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
           </div>
+          <!-- bombilla 2 -->
           <div class="card">
             <img src="../img/bombillapicoloro.png" class="card-img-top" alt="IMAGEN DE BOMBILLA PICO LORO" />
             <div class="card-body">
-              <h5 class="card-title">BOMBILLA PICO DE LORO </h5>
+              <h2 class="card-title">BOMBILLA PICO DE LORO </h2>
               <p class="card-text">$15.999,00</p>
               <p class="card-subtext">
                 3 y 6 cuotas sin interés con tarjetas bancarias
@@ -101,6 +109,7 @@
               <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
           </div>
+          <!-- bombilla 3 -->
           <div class="card">
             <img
               src="../img/bombillaalpaca2.png"
@@ -108,7 +117,7 @@
               alt="IMAGEN DE BOMBILLA ALPACA"
             />
             <div class="card-body">
-              <h5 class="card-title">BOMBILLA ALPACA CLASSIC</h5>
+              <2 class="card-title">BOMBILLA ALPACA CLASSIC</h2>
               <p class="card-text">$9.999,00</p>
               <p class="card-subtext">
                 3 cuotas sin interés con tarjetas bancarias
@@ -116,6 +125,7 @@
               <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
           </div>
+          <!-- bombilla 4 -->
           <div class="card">
             <img
               src="../img/bomillajaula.png"
@@ -123,7 +133,7 @@
               alt="IMAGEN DE BOMBILLA JAULA"
             />
             <div class="card-body">
-              <h5 class="card-title">BOMBILLA JAULA </h5>
+              <h2 class="card-title">BOMBILLA JAULA </h2>
               <p class="card-text">$7.400,00</p>
               <p class="card-subtext">
                 3 cuotas sin interés con tarjetas bancarias seleccionadas 
@@ -131,6 +141,7 @@
               <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
           </div>
+          <!-- bombilla 5 -->
           <div class="card">
             <img
               src="../img/bombillastanley.png"
@@ -138,7 +149,7 @@
               alt="IMAGEN DE BOMBILLA STANLEY"
             />
             <div class="card-body">
-              <h5 class="card-title">BOMBILLA STANLEY</h5>
+              <h2 class="card-title">BOMBILLA STANLEY</h2>
               <p class="card-text">$12.400,00</p>
               <p class="card-subtext">
                 3 y 6 cuotas sin interés con tarjetas bancarias
@@ -146,6 +157,7 @@
               <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
           </div>
+          <!-- bombilla 6 -->
           <div class="card">
             <img
               src="../img/bombillaalpaca4.png"
@@ -153,7 +165,7 @@
               alt=" IMAGEN DE BOMBILLA PORTADA"
             />
             <div class="card-body">
-              <h5 class="card-title">BOMBILLA ALPACA PREMIER </h5>
+              <h2 class="card-title">BOMBILLA ALPACA PREMIER </h2>
               <p class="card-text">$16.400,00</p>
               <p class="card-subtext">
                 3 y 6 cuotas sin interés con tarjetas bancarias
@@ -166,6 +178,7 @@
       </div>
       
     </main>
+    <!-- Pie de la pagina -->
     <footer>
       <div
         class="footer d-flexn align-items-center mt-2"
@@ -173,6 +186,7 @@
         <div class="footer-logo ms-2">
           <img src="../img/LOGO.png" alt="logotipo" />
         </div>
+         <!-- Enlaces a redes sociales -->
 
         <div class="footer-redes me-2">
           Seguinos en
@@ -205,7 +219,7 @@
               
             </div>
           </div>
-
+          <!-- Script de Fuente de letra -->
       <script
         src="https://kit.fontawesome.com/e4f02dc553.js"
         crossorigin="anonymous"

@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link de css -->
-    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <meta name="description" content="Productos de la tienda de Mates de Rio Gallegos santa Cruz">
+    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,13 +21,16 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <!-- Iconos del sitio -->
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
     <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <!-- Título de la página -->
     <title>Productos</title>
   </head>
   <body>
+     <!-- Encabezado / Barra de navegación -->
     <header>
       <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <div class="container-fluid">
@@ -40,12 +44,13 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#opciones"
+            aria-expanded="false"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div
-            class="navbar-collapse justify-content-end order-2"
+            class="collapse navbar-collapse justify-content-end order-2"
             id="opciones"
           >
             <ul class="navbar-nav links dropdown-menu-right">
@@ -71,7 +76,7 @@
         </div>
       </nav>
     </header>
-    
+    <!-- Contenido principal / Sección de accesorios -->
     <main class="productos">
       <h1>Elegi lo que queres ver</h1>
       <div class="tablaContenidos">
@@ -80,24 +85,28 @@
             <img src="../img/ACCESORIOPORTADA.png" class="card-img-top" alt="IMAGEN DE PORTADA DE ACCESORIOS PARA EL MATE" />
           </a>
         </div>
+        <!-- accesorio 1 -->
         <div class="card">
           <a href="bombillas.html">
             <img src="../img/BOMBILLASPORTADA.png" class="card-img-top" alt="IMAGEN DE PORTADA DE BOMBILLAS" />
           </a>
         </div>
+        <!-- accesorio 2 -->
         <div class="card">
           <a href="termos.html">
             <img src="../img/TERMOSPORTADA.png" class="card-img-top" alt="IMAGEN DE PORTADA DE TERMOS" />
           </a>
         </div>
+        <!-- accesorio 3 -->
         <div class="card">
           <a href="mates.html">
-            <img src="../img/MATESPORTADA.png" class="card-img-top" alt="IMAGEN DE PORTADA DE MATES" />
+            <img src="../img/MATESPORTADA.png" class="card-img-top" alt="PERSONA SOSTENIENDO MATE VERDE, FOTO DE PORTADA " />
           </a>
         </div>
       </div>
       
     </main>
+    <!-- Pie de la pagina -->
     <footer>
       <div
         class="footer d-flex align-items-center mt-2"
@@ -105,7 +114,7 @@
         <div class="footer-logo ms-2">
           <img src="../img/LOGO.png" alt="LOGO DE LA WEB" />
         </div>
-
+          <!-- Enlaces a redes sociales -->
         <div class="footer-redes me-2">
           Seguinos en
           <div class="contenedorRedes">
@@ -138,7 +147,7 @@
           </div>
         </div>
       </div>
-
+        <!-- Script de Fuente de letra -->
       <script
         src="https://kit.fontawesome.com/e4f02dc553.js"
         crossorigin="anonymous"

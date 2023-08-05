@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link de css -->
-    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <meta name="description" content="Conocenos en nuestra tienda de mates de Rio Gallegos Santa Cruz">
+    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,13 +21,16 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <!-- Iconos del sitio -->
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
     <link rel="manifest" href="../img/favicon/site.webmanifest">
+    <!-- Título de la página -->
     <title>Nosotros</title>
   </head>
   <body>
+    <!-- Encabezado / Barra de navegación -->
     <header>
       <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <div class="container-fluid">
@@ -40,12 +44,13 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#opciones"
+            aria-expanded="false"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div
-            class="navbar-collapse justify-content-end order-2"
+            class="collapse navbar-collapse justify-content-end order-2"
             id="opciones"
           >
             <ul class="navbar-nav links dropdown-menu-right">
@@ -71,9 +76,11 @@
         </div>
       </nav>
     </header>
+    <!-- titulos princeipal -->
     <main class="contenedorTituloNosotros">
       <div class="titulodenosotros">
         <h1>¿Quienes somos?</h1>
+        <!-- parrafo de nosotros-->
         <p class="lorem">
           Bienvenidos a nuestra tienda de mates, donde la pasión por la
           tradición argentina se fusiona con el espíritu emprendedor de dos
@@ -87,6 +94,7 @@
           tradición que tanto amamos. 
         </p>
       </div>
+      <!-- carrusel boostrap-->
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade p-2 mb-2"
@@ -114,6 +122,7 @@
             />
           </div>
         </div>
+
         <button
           class="carousel-control-prev"
           type="button"
@@ -134,6 +143,7 @@
         </button>
       </div>
     </main>
+    <!-- Pie de la pagina -->
     <footer>
       <div
         class="footer d-flex align-items-center mt-2"
@@ -141,7 +151,7 @@
         <div class="footer-logo ms-2">
           <img src="../img/LOGO.png" alt="logotipo" />
         </div>
-
+        <!-- Enlaces a redes sociales -->
         <div class="footer-redes me-2">
           Seguinos en
           <div class="contenedorRedes">
@@ -174,12 +184,13 @@
           </div>
         </div>
       </div>
-
+      <!-- Script de Fuente de letra -->
       <script
         src="https://kit.fontawesome.com/e4f02dc553.js"
         crossorigin="anonymous"
       ></script>
     </footer>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
       integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"

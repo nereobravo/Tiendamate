@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link de css -->
-    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <meta name="description" content="Preguntas frecuentes de nuestros clientes en la tienda de mates">
+    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,13 +21,16 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <!-- Iconos del sitio -->
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
     <link rel="manifest" href="../img/favicon/site.webmanifest">
+     <!-- Título de la página -->
     <title>Preguntas Frecuentes</title>
   </head>
   <body>
+    <!-- Encabezado / Barra de navegación -->
     <header>
       <nav class="navbar navbar-expand-sm navbar-light fixed-top">
         <div class="container-fluid">
@@ -40,12 +44,13 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#opciones"
+            aria-expanded="false"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div
-            class="navbar-collapse justify-content-end order-2"
+            class="collapse navbar-collapse justify-content-end order-2"
             id="opciones"
           >
             <ul class="navbar-nav links dropdown-menu-right">
@@ -71,12 +76,14 @@
         </div>
       </nav>
     </header>
+    <!-- titulo principal -->
     <main class="textoprincipal">
       <section class="preguntas-frecuentes">
         <div class="container">
           <h1 class="titulo-seccion">Preguntas frecuentes</h1>
+          <!-- preguntas frecuentes -->
           <div class="pregunta">
-            <h3>¿Cuáles son las opciones de pago disponibles?</h3>
+            <h2>¿Cuáles son las opciones de pago disponibles?</h2>
             <p>
               Ofrecemos diversas opciones de pago, incluyendo tarjetas de
               crédito y débito y transferencias bancarias. Puedes
@@ -85,7 +92,7 @@
             </p>
           </div>
           <div class="pregunta">
-            <h3>¿Hacen envíos internacionales?</h3>
+            <h2>¿Hacen envíos internacionales?</h2>
             <p>
               Sí, realizamos envíos a nivel internacional. Trabajamos con socios
               logísticos confiables para asegurarnos de que tus productos
@@ -95,7 +102,7 @@
             </p>
           </div>
           <div class="pregunta">
-            <h3>¿Cómo puedo rastrear mi pedido?</h3>
+            <h2>¿Cómo puedo rastrear mi pedido?</h2>
             <p>
               Una vez que tu pedido haya sido despachado, recibirás un correo
               electrónico con el número de seguimiento y enlace a la página del
@@ -104,7 +111,7 @@
             </p>
           </div>
           <div class="pregunta">
-            <h3>¿Qué hago si tengo un problema con mi pedido?</h3>
+            <h2>¿Qué hago si tengo un problema con mi pedido?</h2>
             <p>
               Si tienes algún problema con tu pedido o recibes un producto
               dañado o incorrecto, por favor, ponte en contacto con nuestro
@@ -114,7 +121,7 @@
             </p>
           </div>
           <div class="pregunta">
-            <h3>¿Cuál es su política de devoluciones?</h3>
+            <h2>¿Cuál es su política de devoluciones?</h2>
             <p>
               Aceptamos devoluciones en caso de productos defectuosos o dañados
               durante el envío. Si deseas realizar una devolución, contáctanos
@@ -123,7 +130,7 @@
             </p>
           </div>
           <div class="pregunta">
-            <h3>¿Ofrecen descuentos o promociones especiales?</h3>
+            <h2>¿Ofrecen descuentos o promociones especiales?</h2>
             <p>
               Sí, regularmente ofrecemos descuentos y promociones especiales
               para nuestros clientes. Mantente atento a nuestras redes sociales
@@ -134,6 +141,7 @@
         </div>
       </section>
     </main>
+    <!-- Pie de la pagina -->
     <footer>
       <div
         class="footer d-flex align-items-center mt-2"
@@ -141,7 +149,7 @@
         <div class="footer-logo ms-2">
           <img src="../img/LOGO.png" alt="logotipo" />
         </div>
-
+        <!-- Enlaces a redes sociales -->
         <div class="footer-redes me-2">
           Seguinos en
           <div class="contenedorRedes">
@@ -174,7 +182,7 @@
           </div>
         </div>
       </div>
-
+      <!-- Script de Fuente de letra -->
       <script
         src="https://kit.fontawesome.com/e4f02dc553.js"
         crossorigin="anonymous"
